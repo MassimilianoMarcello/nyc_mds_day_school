@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import Dropdown from './Dropdown';
-import DropAdmission from './DropAdmiddions';
+import Dropdown from '../components/pages/dropdown/Dropdown';
+import DropAdmission from '../components/pages/dropdown/DropAdmiddions';
+
+import DropParentResources from './pages/dropdown/DropParentResources';
 import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [admissionDropdown, setAdmissionDropdown] = useState(false);
+  const [parentResources, setParentResourcesDropdown] = useState(false);
 
   const handleClick = () => {
     setClick(!click);
@@ -25,10 +28,17 @@ function Navbar() {
   const handleDropdownClick = () => {
     setDropdown(!dropdown);
     setAdmissionDropdown(false);
+    setParentResourcesDropdown(false);
   };
 
   const handleAdmissionDropdownClick = () => {
     setAdmissionDropdown(!admissionDropdown);
+    setDropdown(false);
+    setParentResourcesDropdown(false);
+  };
+
+  const handleParentResourcesDropdownClick = () => {
+    setParentResourcesDropdown(!parentResources);
     setDropdown(false);
   };
 
@@ -69,6 +79,19 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
+              to='/products'
+              className='nav-links'
+              onClick={() => {
+                closeMobileMenu();
+                handleParentResourcesDropdownClick();
+              }}
+            >
+              PARENT RESOURCES
+            </Link>
+            {parentResources && <DropParentResources />}
+          </li>
+          <li className='nav-item'>
+            <Link
               to='/contact-us'
               className='nav-links'
               // onClick={handleDropdownClick}
@@ -94,3 +117,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

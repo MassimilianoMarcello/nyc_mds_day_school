@@ -1,13 +1,39 @@
 import React, { useState } from 'react';
-import { MenuItems } from './MenuItems';
+
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function Dropdown() {
+function DropParentResources() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-
+  const MenuItems = [
+    {
+      title: 'CALENDAR',
+      path: '/marketing',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'LUNCH MENU',
+      path: '/consulting',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'SHOP MDS',
+      path: '/design',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'PARENT COUNCIL',
+      path: '/development',
+      cName: 'dropdown-link'
+    },
+    {
+        title: 'AFTER SCHOOL ACTIVITIES',
+        path: '/development',
+        cName: 'dropdown-link'
+      }
+  ];
   return (
     <>
       <ul
@@ -32,4 +58,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default DropParentResources;
