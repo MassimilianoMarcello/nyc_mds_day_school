@@ -5,6 +5,7 @@ import Dropdown from '../components/pages/dropdown/Dropdown';
 import DropAdmission from '../components/pages/dropdown/DropAdmiddions';
 import DropClassroom from '../components/pages/dropdown/DropClassroom';
 import DropParentResources from './pages/dropdown/DropParentResources';
+import DropCommunity from './pages/dropdown/DropCommunity';
 import './Navbar.css';
 
 function Navbar() {
@@ -12,14 +13,26 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [admissionDropdown, setAdmissionDropdown] = useState(false);
   const [parentResources, setParentResourcesDropdown] = useState(false);
-  const [classroomDropdown, setClassroomDropdown] = useState(false); // Aggiungi questa linea
+  const [classroomDropdown, setClassroomDropdown] = useState(false); 
+  const [communityDropdown, setCommunityDropdown] = useState(false);
+
+
+
+const handleCommunityDropdownClick = () => {
+   setCommunityDropdown(!communityDropdown);
+   setDropdown(false);
+   setAdmissionDropdown(false);
+   setParentResourcesDropdown(false);
+   setClassroomDropdown(false);
+};
+
 
   const handleClick = () => {
     setClick(!click);
     setDropdown(false);
     setAdmissionDropdown(false);
     setParentResourcesDropdown(false);
-    setClassroomDropdown(false); // Assicurati di aggiungere questa riga
+    setClassroomDropdown(false); 
   };
 
   const closeMobileMenu = () => {
@@ -27,7 +40,7 @@ function Navbar() {
     setDropdown(false);
     setAdmissionDropdown(false);
     setParentResourcesDropdown(false);
-    setClassroomDropdown(false); // Assicurati di aggiungere questa riga
+    setClassroomDropdown(false); 
   };
 
   const handleDropdownClick = () => {
@@ -119,15 +132,18 @@ function Navbar() {
             {parentResources && <DropParentResources />}
           </li>
           <li className='nav-item'>
-            <Link
-              to='/contact-us'
-              className='nav-links'
-              // onClick={handleDropdownClick}
-            >
-              COMMUNITY RESOURCES
-            </Link>
-            {/* {dropdown && <DropAdmission />} */}
-          </li>
+   <Link
+      to='/contact-us'
+      className='nav-links'
+      onClick={() => {
+         closeMobileMenu();
+         handleCommunityDropdownClick();
+      }}
+   >
+      COMMUNITY RESOURCES
+   </Link>
+   {communityDropdown && <DropCommunity />}
+</li>
           <li className='nav-item'>
             <Link
               to='/contact-us'
