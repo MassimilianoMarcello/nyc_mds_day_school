@@ -1,35 +1,35 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
 import Dropdown from './Dropdown';
+import DropAdmission from './DropAdmiddions';
+import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [admissionDropdown, setAdmissionDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClick(!click);
+    setDropdown(false);
+    setAdmissionDropdown(false);
+  };
+
   const closeMobileMenu = () => {
     setClick(false);
-    setDropdown(false); // Chiudi il dropdown quando si chiude il menu mobile
+    setDropdown(false);
+    setAdmissionDropdown(false);
   };
 
-  const handleDropdownClick = () => setDropdown(!dropdown);
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
+  const handleDropdownClick = () => {
+    setDropdown(!dropdown);
+    setAdmissionDropdown(false);
   };
 
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
+  const handleAdmissionDropdownClick = () => {
+    setAdmissionDropdown(!admissionDropdown);
+    setDropdown(false);
   };
 
   return (
@@ -48,16 +48,8 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li
-            className='nav-item'
-            // onMouseEnter={onMouseEnter}
-            // onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to='#' // Cambiato il percorso del link
-              className='nav-links'
-              onClick={handleDropdownClick} 
-            >
+          <li className='nav-item'>
+            <Link to='#' className='nav-links' onClick={handleDropdownClick}>
               Services <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
@@ -66,19 +58,24 @@ function Navbar() {
             <Link
               to='/products'
               className='nav-links'
-              onClick={closeMobileMenu}
+              onClick={() => {
+                closeMobileMenu();
+                handleAdmissionDropdownClick();
+              }}
             >
               Products
             </Link>
+            {admissionDropdown && <DropAdmission />}
           </li>
           <li className='nav-item'>
             <Link
               to='/contact-us'
               className='nav-links'
-              onClick={closeMobileMenu}
+              // onClick={handleDropdownClick}
             >
               Contact Us
             </Link>
+            {/* {dropdown && <DropAdmission />} */}
           </li>
           <li>
             <Link
@@ -97,9 +94,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
-
-
