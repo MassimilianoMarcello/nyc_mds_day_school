@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function DropCurriculum() {
+function DropClassroom() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -40,7 +40,7 @@ function DropCurriculum() {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {MenuItems.map((item, index) => {
+        {ClassroomItems.map((item, index) => {
           return (
             <li key={index}>
               <Link
@@ -58,4 +58,4 @@ function DropCurriculum() {
   );
 }
 
-export default DropCurriculum;
+export default DropClassroom;

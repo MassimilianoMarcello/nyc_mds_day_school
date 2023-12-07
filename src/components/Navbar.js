@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import Dropdown from '../components/pages/dropdown/Dropdown';
 import DropAdmission from '../components/pages/dropdown/DropAdmiddions';
-
+import DropClassroom from '../components/pages/dropdown/DropClassroom';
 import DropParentResources from './pages/dropdown/DropParentResources';
 import './Navbar.css';
 
@@ -12,34 +12,49 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [admissionDropdown, setAdmissionDropdown] = useState(false);
   const [parentResources, setParentResourcesDropdown] = useState(false);
+  const [classroomDropdown, setClassroomDropdown] = useState(false); // Aggiungi questa linea
 
   const handleClick = () => {
     setClick(!click);
     setDropdown(false);
     setAdmissionDropdown(false);
+    setParentResourcesDropdown(false);
+    setClassroomDropdown(false); // Assicurati di aggiungere questa riga
   };
 
   const closeMobileMenu = () => {
     setClick(false);
     setDropdown(false);
     setAdmissionDropdown(false);
+    setParentResourcesDropdown(false);
+    setClassroomDropdown(false); // Assicurati di aggiungere questa riga
   };
 
   const handleDropdownClick = () => {
     setDropdown(!dropdown);
     setAdmissionDropdown(false);
     setParentResourcesDropdown(false);
+    setClassroomDropdown(false);
   };
 
   const handleAdmissionDropdownClick = () => {
     setAdmissionDropdown(!admissionDropdown);
     setDropdown(false);
     setParentResourcesDropdown(false);
+    setClassroomDropdown(false);
   };
 
   const handleParentResourcesDropdownClick = () => {
     setParentResourcesDropdown(!parentResources);
     setDropdown(false);
+    setClassroomDropdown(false);
+  };
+
+  const handleClassroomDropdownClick = () => {
+    setClassroomDropdown(!classroomDropdown);
+    setDropdown(false);
+    setAdmissionDropdown(false);
+    setParentResourcesDropdown(false);
   };
 
   return (
@@ -78,15 +93,18 @@ function Navbar() {
             {admissionDropdown && <DropAdmission />}
           </li>
           <li className='nav-item'>
-            <Link
-              to='/contact-us'
-              className='nav-links'
-           
-            >
-              IN THE CLASSROOM
-            </Link>
-          
-          </li>
+   <Link
+      to='/contact-us'
+      className='nav-links'
+      onClick={() => {
+         closeMobileMenu();
+         handleClassroomDropdownClick();
+      }}
+   >
+      IN THE CLASSROOM
+   </Link>
+   {classroomDropdown && <DropClassroom />}
+</li>
           <li className='nav-item'>
             <Link
               to='/products'
