@@ -9,23 +9,23 @@ function Dropdown() {
   const handleClick = () => setClick(!click);
   const MenuItems = [
     {
-      title: 'Marketing',
-      path: '/marketing',
+      title: 'ABOUT MDS',
+      path: '/about_mds',
       cName: 'dropdown-link'
     },
     {
-      title: 'Consulting',
-      path: '/consulting',
+      title: 'LEADERSHIP',
+      path: '/leadership',
       cName: 'dropdown-link'
     },
     {
-      title: 'Design',
-      path: '/design',
+      title: 'OUR BOARD',
+      path: '/our_board',
       cName: 'dropdown-link'
     },
     {
-      title: 'Development',
-      path: '/development',
+      title: 'MDS AT GLANCE',
+      path: '/mds_at_a_glance',
       cName: 'dropdown-link'
     }
   ];

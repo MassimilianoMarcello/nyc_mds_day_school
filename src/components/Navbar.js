@@ -53,14 +53,14 @@ function Navbar() {
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home
             </Link>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <Link to='#' className='nav-links' onClick={handleDropdownClick}>
-              Services <i className='fas fa-caret-down' />
+              ABOUT MDS <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -73,9 +73,19 @@ function Navbar() {
                 handleAdmissionDropdownClick();
               }}
             >
-              Products
+              ADMISSIONS
             </Link>
             {admissionDropdown && <DropAdmission />}
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/contact-us'
+              className='nav-links'
+           
+            >
+              IN THE CLASSROOM
+            </Link>
+          
           </li>
           <li className='nav-item'>
             <Link
@@ -96,7 +106,17 @@ function Navbar() {
               className='nav-links'
               // onClick={handleDropdownClick}
             >
-              Contact Us
+              COMMUNITY RESOURCES
+            </Link>
+            {/* {dropdown && <DropAdmission />} */}
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/contact-us'
+              className='nav-links'
+              // onClick={handleDropdownClick}
+            >
+               SUPPORT MDS
             </Link>
             {/* {dropdown && <DropAdmission />} */}
           </li>
