@@ -33,4 +33,8 @@
   .fa-caret-down {
     display: none;
   }
+  /* dropdown menu not visible in mobile */
+  .dropdown-menu{
+    display: none;
+  }
 }
