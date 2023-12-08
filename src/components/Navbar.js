@@ -96,16 +96,16 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
+      
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          EPIC
-          <i className="fab fa-firstdraft" />
+        <img src="./MDS Color Logo.svg" alt="" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <ul className="menu-mobile-only"><AboutMdsSub/></ul>
+        <li className="menu-mobile-only nav-links-mobile "><AboutMdsSub/></li>
           <li className="nav-item">
             <Link to="#" className="nav-links" onClick={handleDropdownClick}>
               ABOUT MDS 
@@ -183,7 +183,7 @@ function Navbar() {
           <li>
             <Link
               to="/sign-up"
-              className="nav-links-mobile"
+              className="nav-links-mobile "
               onClick={closeMobileMenu}
             >
               Sign Up
