@@ -1,0 +1,32 @@
+
+/* =====  SECTION TWO  ======= */
+
+.parallax {
+  background: url("../../../public/assets/FireBackground.svg") fixed
+    no-repeat;
+  /* padding: 45% 0; */
+  background-position: left;
+  background-size: 95% 50% 45% 35%;
+  padding-bottom: 100px;
+margin-top: -20px;
+  margin-bottom: 100px;
+}
+
+.parallax-inner h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #0741a4;
+  line-height: 1.2;
+  letter-spacing: 1%;
+  margin: 20px;
+  font-weight: 500;
+}
+.parallax-inner p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #161718;
+  letter-spacing: 1%;
+  margin: 20px 10%;
+}
+
+

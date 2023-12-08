@@ -1,0 +1,15 @@
+.prefooter-container{
+  background-color:#f5a700 ;
+  text-align: center;
+  padding: 20px;
+  color: #16479c;
+}
+
+.prefooter-title{
+  font-size: 20px;
+}
+
+.prefooter-container a{
+  padding-left: 10px;
+  color: #0e306b;
+}
