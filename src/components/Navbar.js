@@ -7,7 +7,9 @@ import DropClassroom from "../components/pages/dropdown/DropClassroom";
 import DropParentResources from "./pages/dropdown/DropParentResources";
 import DropCommunity from "./pages/dropdown/DropCommunity";
 import DropSupport from "../components/pages/dropdown/DropSupport";
+
 import "./Navbar.css";
+import AboutMdsSub from "./pages/submenu mobile/MobileMenu";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -101,10 +103,15 @@ function Navbar() {
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
+        
         <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className="menu-mobile-only"><AboutMdsSub/></ul>
           <li className="nav-item">
             <Link to="#" className="nav-links" onClick={handleDropdownClick}>
-              ABOUT MDS <i className="fas fa-caret-down" />
+              ABOUT MDS 
+
+         
+              {/* <i className="fas fa-caret-down" /> */}
             </Link>
             {dropdown && <Dropdown />}
           </li>
