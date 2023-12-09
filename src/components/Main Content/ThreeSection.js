@@ -13,7 +13,8 @@ const ThreeSection = () => {
             <h1 className="title3-tex">
               Early Childhood Education
               <span className="text-gold">
-                designed to nurture and engage young minds
+                
+                 designed to nurture and engage young minds
               </span>
             </h1>
           </li>

@@ -15,13 +15,14 @@ import HeroSection from './components/Hero Section/HeroSection';
 import MainContent from './components/Main Content/MainContent';
 import Prefooter from './components/PreFooter/PreFooter';
 import Footer from './components/Footer/Footer';
+import SmallGoldenBorder from './components/borders/SmallGoldenBorder';
 
 
 export default function App() {
   return (
     <Router>
          <Navbar />
-         <Prefooter />
+         <SmallGoldenBorder/>
     <Routes>
       <Route
         path="/"
