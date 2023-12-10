@@ -47,7 +47,7 @@ padding-bottom: 5px;
 .button-6{
     width: 130px;
   
-  font-size: 16px;
+  font-size: 15px;
 
 
   text-transform: uppercase;
@@ -55,7 +55,7 @@ padding-bottom: 5px;
   letter-spacing: 0.05em;
   -webkit-text-decoration: none;
   text-decoration: none;
-  padding: 0.85rem 0.75rem;
+  padding: 0.85rem 0.85rem;
   font-weight: 700;
   border-radius: 0.333em;
   background: #fff;
