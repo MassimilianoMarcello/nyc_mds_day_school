@@ -47,7 +47,7 @@ const Form = () => {
         />
       </div>
 
-      <button className="submit-button">Submit</button>
+      <button className="submit-button">submit</button>
     </div>
   );
 };

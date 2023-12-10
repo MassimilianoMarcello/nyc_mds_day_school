@@ -105,7 +105,7 @@ function Navbar() {
         </div>
         
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <ul className="menu-mobile-only nav-links-mobile "><MobileMenu/></ul>
+        <li className="menu-mobile-only nav-links-mobile "><MobileMenu/></li>
           <li className="nav-item">
             <Link to="#" className="nav-links" onClick={handleDropdownClick}>
               ABOUT MDS 
@@ -117,7 +117,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/products"
+              to="#"
               className="nav-links"
               onClick={() => {
                 closeMobileMenu();
@@ -130,7 +130,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact-us"
+              to="#"
               className="nav-links"
               onClick={() => {
                 closeMobileMenu();
@@ -156,7 +156,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact-us"
+              to="#"
               className="nav-links"
               onClick={() => {
                 closeMobileMenu();
@@ -169,7 +169,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact-us"
+              to="#"
               className="nav-links"
               onClick={() => {
                 closeMobileMenu();
@@ -182,7 +182,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/sign-up"
+              to="#"
               className="nav-links-mobile "
               onClick={closeMobileMenu}
             >

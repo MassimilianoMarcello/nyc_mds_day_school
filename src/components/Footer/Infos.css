@@ -14,7 +14,6 @@
   max-width: 100%;
   height: auto;
   margin-top: 25px;
-
 }
 
 .footer-container p:nth-child(2) {
@@ -40,17 +39,26 @@
   grid-column: 1/2;
   grid-row: 11/12;
 }
+.social-media-container:hover {
+  /* SOCIAL MEDIA*LINKS*/
+  color: #f5a700;
+}
 
 .footer-container p {
   /* PARE */
   grid-column: 1/2;
   grid-row: 15/16;
 }
+.footer-container p:hover {
+  /* PARE */
+color: #f5a700;
+}
 .footer-container p:nth-child(7) {
   /* SUPPORING MDS */
   grid-column: 1/2;
   grid-row: 17/18;
 }
+
 .footer-container p:nth-child(6) {
   /* ABOUT MDS */
   grid-column: 2/2;
@@ -63,31 +71,38 @@
   grid-row: 17/18;
 }
 
+
 .mail-to {
   color: #fff;
 }
 
 .mail-to:hover {
-  color: darkgoldenrod;
+  color: #f5a700;
 }
 
 .social-media-container a {
   padding-right: 10px;
 }
+/* .footer-container .facebook-link svg {
+  fill: #fff;
+}
+
+.footer-container .facebook-link svg.hover {
+  fill: #f5a700;
+} */
+
+
 
 @media only screen and (min-width: 1024px) {
   .footer-container {
-grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px repeat(20, 10px);
- 
-  
   }
   .footer-container img {
     grid-column: 1/3;
     grid-row: 1/2;
- 
+
     margin-top: 25px;
-  
   }
   .footer-container p:nth-child(2) {
     /* 310 west street */
@@ -106,22 +121,21 @@ grid-template-columns: repeat(4, 1fr);
   }
   .social-media-container {
     /* SOCIAL MEDIA*LINKS*/
-  
+
     grid-column: 2/3;
     grid-row: 11/12;
     padding-left: 10px;
   }
-  
+
   .footer-container p {
     /* PARE */
     grid-column: 2/3;
     grid-row: 4/5;
     padding-left: 10px;
-    
   }
   .footer-container p:nth-child(7) {
     /* SUPPORING MDS */
-  
+
     grid-column: 2/3;
     grid-row: 6/7;
     padding-left: 10px;
@@ -131,13 +145,10 @@ grid-template-columns: repeat(4, 1fr);
     grid-column: 3/4;
     grid-row: 6/7;
   }
-  
+
   .footer-container p:nth-child(8) {
     /* ADMISSIONS */
     grid-column: 3/4;
     grid-row: 4/5;
   }
-  
-
 }
-

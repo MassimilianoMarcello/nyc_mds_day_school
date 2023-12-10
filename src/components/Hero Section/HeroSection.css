@@ -1,6 +1,6 @@
 .title-text,
 .hero-section {
-  margin: 2rem auto;
+  margin: 0 auto;
   width: 100%;
 }
 /* .title-text {
@@ -17,7 +17,7 @@
   padding: 1rem 1rem;
 -webkit-text-stroke: 3px white;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
-  font-size: 5rem !important;
+  font-size: 5.2rem !important;
   font-family: "Euclid Circular A", sans-serif;
   font-weight: 700;
 

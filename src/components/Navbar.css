@@ -5,6 +5,7 @@
   justify-content: center;
   align-items:center;
   font-size: 1.2rem;
+ 
 
   
 }
@@ -30,6 +31,8 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+  font-family: 'Euclid Square', sans-serif;
+
   
 }
 
@@ -103,6 +106,9 @@ color: #f5a700;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    padding-bottom: 2000px;
+
+
   
 
   }
@@ -208,7 +214,7 @@ color: #f5a700;
     transition: 250ms;
   }
 
-  button {
+  .btn {
     display: none;
   }
 }

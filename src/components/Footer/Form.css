@@ -1,11 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-flex');
+
 .form-container {
-  /* max-width: 400px; */
-  margin: auto;
-  /* background-color: #001d53; */
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+margin: auto;
+color: #fff;
+display: flex;
+flex-direction: column;
+padding: 20px;
 
 }
 .form-container h1{
@@ -59,17 +59,21 @@ transition: transform 0.5s ease-in-out;
 }
 
 .submit-button {
-  background-color: #277fdd; /* colore bottone */
-  color: white; /* colore del testo */
-  padding: 10px 15px;
+  background-color: #277fdd; 
+  color: white; 
+  width: 90px;
+  padding: 10px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-weight: 600;
+  font-family: 'Euclid Square', sans-serif;
+  text-transform: uppercase;
 }
 
 .submit-button:hover {
-  background-color: #f5a700; /* colore bottone hover */
+  background-color: #f5a700; 
 }
 
 
@@ -89,7 +93,7 @@ transition: transform 0.5s ease-in-out;
         /* margin-left: -160px; */
         /* justify-content: flex-start; */
     }
-    .input1{
+    /* .input1{
     
     }
     .input2{
@@ -100,5 +104,5 @@ transition: transform 0.5s ease-in-out;
     }
     .submit-button{
      
-    }
+    } */
 }

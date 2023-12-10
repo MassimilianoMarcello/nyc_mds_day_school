@@ -18,6 +18,7 @@
   list-style-type: none;
 margin: 20px;
   margin-top: -100px;
+  margin-bottom: -50px;
   margin-left: -10px;
   /* padding-bottom: 0; */
 }
@@ -33,15 +34,14 @@ margin: 20px;
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
-
-  /* padding: 10px; */
-  margin: -20px auto; 
+  padding-left: 10px;
 }
 
 .a2 {
   /* background-color: rgb(199, 129, 30); */
   grid-column: 1/5;
   grid-row: 4/5;
+  padding-left: 10px;
 }
 .a2 h1 {
   border-top: solid 3px #f5a700;
@@ -51,6 +51,7 @@ margin: 20px;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.2px;
+  
 }
 
 h1 .text-gold {
@@ -65,6 +66,7 @@ h1 .text-gold {
   grid-row: 5/6;
   margin-bottom: 60px;
   letter-spacing: 1px;
+  padding-left: 10px;
 }
 
 .a4 {
@@ -81,6 +83,7 @@ h1 .text-gold {
   font-weight: 600;
   text-underline-offset: 10px;
   letter-spacing: 1px;
+  padding-left: 10px;
 }
 .a4 a:hover{
   color:#0741a4;

@@ -20,6 +20,7 @@ const TwoSection = () => {
         Toddlers through Eighth Grade. Founded in 1943, we have 80 years of
         experience in educating Jewish children in a warm Torah environment.
         </p>
+        
         <h2>Ready to become a part of MDS?</h2>
         <a href="./">apply now</a>
    

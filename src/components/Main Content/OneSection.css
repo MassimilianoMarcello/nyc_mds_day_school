@@ -6,11 +6,13 @@
     no-repeat;
   /* padding: 45% 0; */
   background-position: left;
+
   background-size: 95% 50% 45% 35%;
   padding-bottom: 100px;
 margin-top: -20px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
+
 
 .parallax-inner h2 {
   text-align: center;
@@ -27,6 +29,7 @@ margin-top: -20px;
   color: #161718;
   letter-spacing: 1%;
   margin: 20px 10%;
+
 }
 
 

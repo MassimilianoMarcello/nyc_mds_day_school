@@ -11,7 +11,7 @@ const FiveSection = () => {
     </li>
     <li className="c2">
     <h1>
-      <span className="gold-text">Middle School</span>helps groving student fluorish
+      <span className="gold-text">Middle School  </span> helps groving student fluorish
     </h1>
     </li>
     <li className="c3">

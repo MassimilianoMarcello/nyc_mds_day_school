@@ -12,7 +12,7 @@ const Infos = () => {
         info@manhattanday.org
       </a>
       <div className="social-media-container">
-        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FManhattanDay%2F">
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FManhattanDay%2F" className='twitter-link'>
           <svg
             width="30"
             height="26"
@@ -27,7 +27,7 @@ const Infos = () => {
           </svg>
         </a>
 
-        <a href="https://www.instagram.com/manhattandayschool/">
+        <a href="https://www.instagram.com/manhattandayschool/" className='instagram-link'>
           <svg
             width="30"
             height="30"
@@ -50,7 +50,7 @@ const Infos = () => {
           </svg>
         </a>
 
-        <a href="https://www.facebook.com/ManhattanDaySchool1943/">
+        <a href="https://www.facebook.com/ManhattanDaySchool1943/" className='facebook-link'>
           <svg
             width="30"
             height="30"
