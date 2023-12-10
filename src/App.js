@@ -15,7 +15,7 @@ import HeroSection from './components/Hero Section/HeroSection';
 import MainContent from './components/Main Content/MainContent';
 import Prefooter from './components/PreFooter/PreFooter';
 import Footer from './components/Footer/Footer';
-import SmallGoldenBorder from './components/borders/SmallGoldenBorder';
+import MediumGoldenBorder from './components/borders/MediumGoldenBorder';
 import EmploymentOpportunities from './components/pages/EmplyementOpportunities';
 import Admissions from './components/pages/Admissions';
 import AdmissionsProcess from './components/pages/AdmissionsProcess';
@@ -29,7 +29,7 @@ export default function App() {
   return (
     <Router>
          <Navbar />
-         <SmallGoldenBorder/>
+         <MediumGoldenBorder/>
     <Routes>
       <Route
         path="/"
