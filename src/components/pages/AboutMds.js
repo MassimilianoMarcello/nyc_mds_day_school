@@ -2,5 +2,11 @@ import React from 'react';
 import '../../App.css';
 
 export default function AboutMds() {
-  return <h1 className='sample-page'>ABOUT MDS</h1>;
+  return (
+    <div className="sample-page page-about">
+        
+  <h1 className="text-sample">ABOUT MDS</h1>
+</div>
+  )
+  
 }

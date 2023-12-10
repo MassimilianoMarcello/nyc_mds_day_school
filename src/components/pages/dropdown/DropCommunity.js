@@ -10,8 +10,8 @@ function DropCommunity() {
   const communityItems = [
     {
       title: 'CAMP OROT',
-      path: '/camp_orot',
-      cName: 'dropdown-link'
+      path: '/sample_page_one',
+      cName: 'sample_page_three'
     }
   ];
   

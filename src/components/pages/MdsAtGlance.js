@@ -4,7 +4,11 @@ import '../../App.css';
 export default function MdsAtGlance() {
   return (
     <>
-      <h1 className='sample page'>MDS AT A GLANCE</h1>
+     
+      <div className="sample-page page-glance">
+        
+        <h1 className="text-sample">MDS AT A GLANCE</h1>
+      </div>
     </>
   );
 }

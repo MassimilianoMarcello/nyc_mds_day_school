@@ -10,27 +10,27 @@ function DropClassroom() {
   const ClassroomItems = [
     {
       title: 'EARLY CHILDOOD',
-      path: '/early_childood',
+      path: '/sample_page_one',
       cName: 'dropdown-link'
     },
     {
       title: 'LOWER SCHOOL',
-      path: '/lower_school',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     },
     {
       title: 'MIDDLE SCHOOL',
-      path: '/middle_school',
+      path: '/sample_page_three',
       cName: 'dropdown-link'
     },
     {
       title: 'BRIDGE PROGRAM',
-      path: '/bridge_program',
+      path: '/sample_page_one',
       cName: 'dropdown-link'
     },
     {
       title: 'CURRICULUM GUIDE',
-      path: '/curriculum_guide',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     }
   ];

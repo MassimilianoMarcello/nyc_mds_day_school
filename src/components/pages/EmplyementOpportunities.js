@@ -3,9 +3,9 @@ import '../../App.css';
 
 export default function ContactUs() {
   return (
-    <div className="sample-page page-contact">
+    <div className="sample-page page-employment">
         
-  <h1 className="text-sample">CONTACT</h1>
+  <h1 className="text-sample">EMPLOYMENT OPPORTUNITIES</h1>
 </div>
   )
   

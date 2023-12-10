@@ -10,27 +10,27 @@ function DropParentResources() {
   const MenuItems = [
     {
       title: 'CALENDAR',
-      path: '/marketing',
+      path: '/sample_page_one',
       cName: 'dropdown-link'
     },
     {
       title: 'LUNCH MENU',
-      path: '/consulting',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     },
     {
       title: 'SHOP MDS',
-      path: '/design',
+      path: '/sample_page_three',
       cName: 'dropdown-link'
     },
     {
       title: 'PARENT COUNCIL',
-      path: '/development',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     },
     {
         title: 'AFTER SCHOOL ACTIVITIES',
-        path: '/development',
+        path: '/sample_page_three',
         cName: 'dropdown-link'
       }
   ];

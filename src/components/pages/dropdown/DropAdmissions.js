@@ -10,22 +10,22 @@ function DropAdmission() {
   const MenuAdmission = [
     {
       title: 'ADMISSIONS WELCOME',
-      path: '/marketing',
+      path: '/admissions_welcome',
       cName: 'dropdown-link'
     },
     {
       title: 'ADMISSIONS PROCESS',
-      path: '/consulting',
+      path: '/admissions_process',
       cName: 'dropdown-link'
     },
     {
       title: 'FINANCIAL AID',
-      path: '/design',
+      path: '/sample_page_one',
       cName: 'dropdown-link'
     },
     {
       title: 'INQUIRE',
-      path: '/development',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     }
   ];

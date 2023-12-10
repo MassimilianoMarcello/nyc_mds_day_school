@@ -5,7 +5,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InTheClassroom from './components/pages/InTheClassroom';
 import AboutMds from './components/pages/AboutMds';
-import Admissions from './components/pages/Admissions';
+
 import ContactUs from './components/pages/Contact';
 import SignUp from './components/pages/SignUp';
 import Leadership from './components/pages/Leadership';
@@ -16,6 +16,13 @@ import MainContent from './components/Main Content/MainContent';
 import Prefooter from './components/PreFooter/PreFooter';
 import Footer from './components/Footer/Footer';
 import SmallGoldenBorder from './components/borders/SmallGoldenBorder';
+import EmploymentOpportunities from './components/pages/EmplyementOpportunities';
+import Admissions from './components/pages/Admissions';
+import AdmissionsProcess from './components/pages/AdmissionsProcess';
+import SamplePageOne from './components/pages/SamplePageOne';
+import SamplePageTwo from './components/pages/SamplePageTwo';
+import SamplePageThree from './components/pages/SamplePageThree';
+
 
 
 export default function App() {
@@ -36,13 +43,22 @@ export default function App() {
         }
       />
       <Route path="/about_mds" element={<AboutMds />} />
-      <Route path="/admissions" element={<Admissions />} />
+      {/* <Route path="/admissions" element={<Admissions />} /> */}
+     
       <Route path="/in_the_classroom" element={<InTheClassroom />} />
-      <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/contact_us" element={<ContactUs />} />
+      <Route path="/sign_up" element={<SignUp />} />
       <Route path="/leadership" element={<Leadership />} />
       <Route path="/our_board" element={<OurBoard />} />
       <Route path="/mds_at_a_glance" element={<MdsAtGlance />} />
+      <Route path="/employment_opportunities" element={<EmploymentOpportunities />} />
+      <Route path="/admissions_process" element={<AdmissionsProcess />} />
+      <Route path="/admissions_welcome" element={<Admissions />} />
+      <Route path="/sample_page_one" element={<SamplePageOne />} />
+      <Route path="/sample_page_two" element={<SamplePageTwo />} />
+      <Route path="/sample_page_three" element={<SamplePageThree />} />
+
+
     </Routes>
     <Prefooter />
             <Footer />

@@ -10,27 +10,27 @@ function DropSupport() {
   const supportItems = [
     {
       title: 'MAKE A GIFT',
-      path: '/supporting_mds',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     },
     {
       title: 'WAYS TO GIVE',
-      path: '/supporting_mds',
+      path: '/sample_page_one',
       cName: 'dropdown-link'
     },
     {
       title: 'ANNUAL FUND',
-      path: '/supporting_mds',
+      path: '/sample_page_three',
       cName: 'dropdown-link'
     },
     {
       title: 'LIMMUD HAYOM,',
-      path: '/supporting_mds',
+      path: '/sample_page_two',
       cName: 'dropdown-link'
     },
     {
         title: 'PROGRAM SPONSORSHIP',
-        path: '/supporting_mds',
+        path: '/sample_page_three',
         cName: 'dropdown-link'
       }
   ];

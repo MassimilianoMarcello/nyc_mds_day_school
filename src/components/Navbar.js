@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import Dropdown from "../components/pages/dropdown/Dropdown";
-import DropAdmission from "../components/pages/dropdown/DropAdmiddions";
+import DropAdmission from "./pages/dropdown/DropAdmissions";
 import DropClassroom from "../components/pages/dropdown/DropClassroom";
 import DropParentResources from "./pages/dropdown/DropParentResources";
 import DropCommunity from "./pages/dropdown/DropCommunity";
@@ -143,7 +143,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/products"
+              to="#"
               className="nav-links"
               onClick={() => {
                 closeMobileMenu();
