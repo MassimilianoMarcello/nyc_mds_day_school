@@ -38,7 +38,8 @@ function DropParentResources() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={`dropdown-menu ${click ? 'clicked' : ''} parent-drop`}  
+
       >
         {MenuItems.map((item, index) => {
           return (

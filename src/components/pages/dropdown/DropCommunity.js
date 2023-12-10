@@ -11,7 +11,7 @@ function DropCommunity() {
     {
       title: 'CAMP OROT',
       path: '/sample_page_one',
-      cName: 'sample_page_three'
+      cName: 'dropdown-link'
     }
   ];
   
@@ -19,7 +19,8 @@ function DropCommunity() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={`dropdown-menu ${click ? 'clicked' : ''} community-drop`}  
+
       >
         {communityItems.map((item, index) => {
           return (

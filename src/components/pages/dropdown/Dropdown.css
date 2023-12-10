@@ -1,8 +1,9 @@
+/* general dropdown menu style */
 .dropdown-menu {
-
   width: 200px;
   position: absolute;
   top: 80px;
+
   list-style: none;
   text-align: start;
 }
@@ -13,7 +14,7 @@
 }
 
 .dropdown-menu li:hover {
-  background: #5cabff;
+  color: #f5a700 !important ;
 }
 
 .dropdown-menu.clicked {
@@ -25,8 +26,11 @@
   height: 100%;
   width: 100%;
   text-decoration: none;
-  color:#5cabff;
+  color: #3e8fe5;
   padding: 16px;
+}
+.dropdown-link:hover {
+  color: #f5a700;
 }
 
 @media screen and (max-width: 960px) {
@@ -34,7 +38,34 @@
     display: none;
   }
   /* dropdown menu not visible in mobile */
-  .dropdown-menu{
+  .dropdown-menu {
     display: none;
   }
 }
+
+@media screen and (min-width: 960px) {
+
+/* single dropdown menu style */
+.about-drop {
+  margin-left: -50px;
+}
+.admission-drop {
+  margin-left: -50px;
+}
+.classroom-drop {
+  margin-left: -20px;
+}
+.community-drop {
+  margin-left: 15px;
+}
+.parent-drop {
+  margin-left: -15px;
+}
+.support-drop {
+  margin-left: -40px;
+}
+/* ====================== */
+
+}
+
+

@@ -34,7 +34,7 @@ function DropAdmission() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={`dropdown-menu ${click ? 'clicked' : ''} admission-drop`}  
       >
         {MenuAdmission.map((item, index) => {
           return (

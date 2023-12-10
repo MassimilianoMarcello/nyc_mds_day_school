@@ -38,7 +38,8 @@ function DropSupport() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={`dropdown-menu ${click ? 'clicked' : ''} support-drop`}  
+
       >
         {supportItems.map((item, index) => {
           return (
