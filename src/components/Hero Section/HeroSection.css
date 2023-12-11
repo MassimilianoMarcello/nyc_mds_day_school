@@ -44,8 +44,9 @@ padding:3px ;
     background-repeat: no-repeat;
     min-height: 400px;
     min-width: 450px;
-    font-size: 8rem;
-  
+    font-size: 4rem;
+    border-top: 2.5rem  solid hsl(30, 3%, 11%);
+    border-bottom: 2.5rem  solid hsl(30, 3%, 11%);
   }
   .hero-section img {
     width: 100%;

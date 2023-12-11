@@ -1,6 +1,6 @@
-.parallax-d{
+.parallax-6{
     background: url("../../../public/assets/Group\ 606.svg") fixed no-repeat; 
-padding: 50px;
+padding: 5px;
 padding-top: 50px;
 background-color: rgb(26, 96, 215, 0.7);
 margin-top: 40px;
@@ -10,35 +10,35 @@ margin-top: 40px;
 }
 
 
-.para-container-d{
+.para-container-6{
    text-align: center;
    padding-bottom: 5px;
 
 }
 
-.title-d{
+.title-6{
 font-size: 50px;
 color:  #f5a700;
 padding-bottom: 5px;
 
 }
 
-.text-d{
+.text-6{
    color:#fff; 
    padding-bottom: 10px;
    line-height: 30px;
 }
-.ask-link{
+.ask-link6{
     line-height:30px;
     margin-bottom: 40px;
     color: #fff;
 }
-.ask-link:hover{
+.ask-link6:hover{
 
   color: #f5a700;
 }
 
-.ask-link-container{
+.ask-link-container6{
     display: flex;
   justify-content:center ;
   letter-spacing:1px ;
@@ -61,6 +61,11 @@ padding-bottom: 5px;
   background: #fff;
   color: #0741a4;
   display: inline-block;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 960px) {
+
 }
 
 
