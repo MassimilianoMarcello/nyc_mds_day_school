@@ -147,32 +147,32 @@ width: 480px;
     .para-container-b {
         background-color: rgb(184, 99, 2);
       display: grid;
-      grid-template-columns: 250px 50px 100px 150px 500px;
-      grid-template-rows: repeat(10, 100px);
+      grid-template-columns: repeat(8,1fr);
+      grid-template-rows: repeat(6, auto);
       gap: 20px;
-      list-style-type: none;
-  margin-top: -100px;
+    
+
       padding-bottom: 0;
     }
     .b1 img {
-      margin-left: -40px;
-      min-width: 900px;
-      height: 700px;
+      margin-left: -60px;
+      min-width: 1200px;
+      height: 900px;
   
   
   
     }
     .b1 {
   background-color: #f5a700;
-      grid-column: 4/6;
-      grid-row: 1/4;
+      grid-column: 4/8;
+      grid-row: 1/6;
   z-index: 2;
   padding-left: 10px;
   background-color: blue;}
   
     .b2 {
       background-color: rgb(199, 129, 30);
-      grid-column: 1/4;
+      grid-column: 1/3;
       grid-row: 2/4;
     }
     .b2 h1 {
@@ -191,13 +191,13 @@ width: 480px;
   
     .b3 {
       background-color: rgb(196, 199, 30);
-      grid-column: 1/4;
+      grid-column: 1/3;
       grid-row: 4/5;
     }
   
     .b4 {
       background-color: rgb(199, 30, 193);
-      grid-column: 1/4;
+      grid-column: 1/3;
       grid-row: 5/7;
     }
   
