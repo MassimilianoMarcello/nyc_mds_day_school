@@ -3,7 +3,7 @@ import "./Infos.css"
 
 const Infos = () => {
   return (
-    <footer>
+    <footer className='footer-first-container'>
     <div className="footer-container">
       <img src="/assets/IconWhite.svg" alt="white logo" />
       <p>310 West 75th Street</p>

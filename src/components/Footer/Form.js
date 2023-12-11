@@ -12,20 +12,21 @@ const Form = () => {
   return (
     
     <div className="form-container">
-        {/* <h1>Want to leran more about MDS? Contact Us</h1> */}
-      <div className="form-section">
-      <h1>Want to leran more about MDS? Contact Us</h1>
+    <h1>Want to learn more about MDS? Contact Us</h1> 
+      
+      
+   
         <input
           type="text"
           id="fullName"
           placeholder="Enter your full name*"
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
-          className="input input1"
+          className="input form-section-input1"
         />
-      </div>
+     
 
-      <div className="form-section">
+    
     
         <input
           type="email"
@@ -33,23 +34,22 @@ const Form = () => {
           placeholder="Enter your email*"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="input input2"
+          className="input form-section-input2"
         />
-      </div>
-
-      <div className="form-section">
+    
+ 
+    
             <textarea
           id="message"
           placeholder="Write your message here...*"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="textarea"
-        />
-      </div>
-
-      <button className="submit-button">submit</button>
+          className="textarea form-section-input3"
+        /> 
+     
+ <button className="submit-button">submit</button> 
     </div>
-  );
+    );
 };
 
 export default Form;
