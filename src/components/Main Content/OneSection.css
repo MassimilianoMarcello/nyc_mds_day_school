@@ -4,7 +4,7 @@
 .parallax {
   background: url("../../../public/assets/FireBackground.svg") fixed
     no-repeat;
-  /* padding: 45% 0; */
+
   background-position: left;
 
   background-size: 95% 50% 45% 35%;
