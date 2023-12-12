@@ -28,16 +28,15 @@
 }
 .a1 {
 
-  margin: auto;
+ 
   position: relative;
+  margin: auto;
   z-index: 2;
   background-repeat: no-repeat;
   padding-left: 10px;
 }
 
-.a2 {
-  margin-top: 2px;
-}
+
 .a2 {
   border-top: solid 3px #f5a700;
   padding-top: 20px;
@@ -45,7 +44,9 @@
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2;
-  letter-spacing: 0.2px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+
 }
 
 h1 .text-gold {
