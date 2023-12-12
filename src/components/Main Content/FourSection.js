@@ -8,21 +8,24 @@ const FourSection = () => {
         <li className="b1">
           <img src="/assets/hero_image3.png" alt="teacher and boy reading" />
         </li>
-        <li className="b2">
-          <h1 className="title3-tex">
-            <span className="text-gold">Lower School </span> builds a solid
-            foundation for life
-          </h1>
-        </li>
-        <li className="b3">
-          <p className="b3">
-            Students explore their studies through unique, interdisciplinary
-            hands-on experiences and state-of-the-art technology and begin to
-            develop core academic skills.
-          </p>
-        </li>
-        <li className="b4">
-          <a href="./">learn more</a>
+        <li className="b-text-container">
+          
+          <li className="b2">
+            <h1 className="title3-tex">
+              <span className="text-gold">Lower School </span> builds a solid
+              foundation for life
+            </h1>
+          </li>
+          <li className="b3">
+            <p className="b3">
+              Students explore their studies through unique, interdisciplinary
+              hands-on experiences and state-of-the-art technology and begin to
+              develop core academic skills.
+            </p>
+          </li>
+          <li className="b4">
+            <a href="./">learn more</a>
+          </li>
         </li>
         <li className="b5">
           <span className="rectangle1"></span>

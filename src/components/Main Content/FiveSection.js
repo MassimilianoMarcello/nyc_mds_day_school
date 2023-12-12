@@ -9,6 +9,7 @@ const FiveSection = () => {
     <li className="c1">
     <img src="/assets/hero image4.png" alt="young scientist" />
     </li>
+    <li className='c-text-container'>
     <li className="c2">
     <h1>
       <span className="gold-text">Middle School  </span> helps groving student fluorish
@@ -24,6 +25,8 @@ const FiveSection = () => {
       
       <a href="./">learn more</a>
     </li>
+    </li>
+    
     {/* <li className="c5">
       
       <span className="rectangle1"></span>
