@@ -6,31 +6,35 @@
   background-position: left;
 
   background-size: 95% 50% 45% 35%;
-  padding-bottom: 250px;
+
   margin-top: -20px;
 }
 
 .parallax-inner h2 {
-  text-align: center;
+
   font-size: 4rem;
+  font-weight: 500;
   color: #0741a4;
   line-height: 1.2;
   letter-spacing: 1%;
-  margin: 20px;
-  padding-top: 100px;
-  padding-left: 300px;
   text-align: left;
 
-  font-weight: 500;
+  margin: 20px;
+
+
+
+
+
 }
 .parallax-inner p {
-  text-align: center;
+
   font-size: 1.2rem;
   color: #161718;
   letter-spacing: 1%;
-  margin: 20px 10%;
-  padding-left: 180px;
+  margin: 2rem;
+
   text-align: left;
+
 }
 
 @media screen and (max-width: 960px) {

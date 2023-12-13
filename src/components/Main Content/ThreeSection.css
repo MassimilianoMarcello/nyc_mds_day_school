@@ -1,5 +1,7 @@
 .parallax9 {
-  margin-left: -20px;
+  margin-top: -6rem;
+margin-bottom: 1rem;
+
 }
 
 .para-container {
@@ -9,22 +11,24 @@
   gap: 20px;
   list-style-type: none;
   align-items: center;
-  margin: 20px;
-  margin-top: -100px;
-  margin-bottom: -50px;
+
 
   /* padding-bottom: 0; */
 }
 .a-image-container{
   grid-column: 1/2;
   grid-row: 1/4;
-  margin-left: -30px;
-  margin-bottom: 1rem;
+
+margin-left: -1.5rem;
+margin-right: 1rem;
+margin-bottom: -2rem;
 }
 .a-text-container {
   grid-column: 1/2;
   grid-row: 5/8;
-  margin-bottom: 6rem;
+margin-left: -1.5rem;
+margin-right: .1rem;
+  margin-bottom: .5rem;
 }
 .a1 {
 
@@ -33,7 +37,7 @@
   margin: auto;
   z-index: 2;
   background-repeat: no-repeat;
-  padding-left: 10px;
+
 }
 
 
@@ -45,7 +49,7 @@
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 1px;
-  margin-top: 2px;
+
 
 }
 
@@ -56,13 +60,13 @@ h1 .text-gold {
 }
 
 .a3 {
-  margin-top: 6px;
+  margin-top: 1rem;
+  margin-right: .1rem;
 }
 
 .a4 {
-  /* background-color: rgb(199, 30, 193); */
 
-  margin-bottom: 100px;
+
 
   text-transform: uppercase;
 }
@@ -71,7 +75,7 @@ h1 .text-gold {
   font-weight: 600;
   text-underline-offset: 10px;
   letter-spacing: 1px;
-  margin-bottom: 100px;
+
 }
 .a4 a:hover {
   color: #0741a4;
@@ -82,7 +86,7 @@ h1 .text-gold {
   background-color: #277ddc;
 
   height: 90px ;
-  margin-left: -40px;
+  margin-left: -2.5rem;
   width: 200px ;
   z-index: 1;
   margin-top: -4rem ;
