@@ -15,21 +15,13 @@
   text-align: center;
   width: 100vw;
   justify-content: end;
-  margin-right: .1rem;
+  margin-right: 0.1rem;
   font-family: "Euclid Square", sans-serif;
 }
 .navbar-logo img {
-
- 
-  /* margin-left: -50px; */
   cursor: pointer;
   padding: 2px;
   margin: 2px auto;
-
-
-
-
-  
 }
 
 .nav-item {
@@ -41,9 +33,9 @@
 .nav-links {
   color: #0641a4;
   text-decoration: none;
-  padding: 0.5rem .6rem;
-font-size: 17px;
-font-weight: 500;
+  padding: 0.5rem 0.6rem;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .nav-links:hover {
@@ -68,7 +60,7 @@ font-weight: 500;
     position: relative;
   }
 
-  /* gestire il menu mobile */
+  /* menu mobile */
   .nav-menu {
     display: grid;
     grid-template-columns: 1fr;
@@ -91,8 +83,6 @@ font-weight: 500;
     z-index: 1;
   }
 
-
-  /* prova qui position fixed */
   .navbar-logo img {
     position: absolute;
     top: 0;
@@ -101,11 +91,7 @@ font-weight: 500;
     margin: 2px auto;
     padding-left: 10px;
   }
-  /* ============== */
 
-
-
-/* ========================== */
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -140,17 +126,12 @@ font-weight: 500;
     color: #f5a700;
     transition: 250ms;
   }
-
-
 }
 
-
-/* media queries for menu  desktop vs mobile */
+/* media queries  menu  desktop vs mobile */
 @media screen and (max-width: 1169px) {
-  
   .nav-links {
     display: none;
-    
   }
   .btn {
     display: none;
@@ -163,7 +144,6 @@ font-weight: 500;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
- 
   }
 
   .fa-times {
@@ -172,16 +152,11 @@ font-weight: 500;
   }
   .fa-bars {
     color: #0641a4;
-  
   }
-
 }
-
+/* connected with mobile menu */
 @media screen and (min-width: 1170px) {
   .menu-mobile-only li {
     display: none;
- 
   }
-
 }
-
