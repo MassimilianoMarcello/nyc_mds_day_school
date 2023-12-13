@@ -9,9 +9,7 @@ const FiveSection = () => {
           <li className="c-image-container">
             <img src="/assets/hero image4.png" alt="young scientist" />
 
-            <h1 className="c5 ">
-              <span className="rectangle1"></span>
-            </h1>
+        
           </li>
 
           <li className="a-text-container">

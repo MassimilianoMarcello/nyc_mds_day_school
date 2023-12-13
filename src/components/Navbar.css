@@ -200,7 +200,7 @@ font-weight: 500;
   }
 } */
 /* media queries for menu  desktop vs mobile */
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1169px) {
   .nav-links {
     display: none;
     
@@ -233,7 +233,5 @@ font-weight: 500;
     display: none;
  
   }
-
-
-  
 }
+
