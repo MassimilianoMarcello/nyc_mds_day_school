@@ -7,12 +7,12 @@ const FiveSection = () => {
       <section className="parallax-c">
         <ul className="para-container-c">
           <li className="c-image-container">
-            <img src="/assets/hero image4.png" alt="young scientist" />
+            <img src="/assets/hero image4.png" alt="young scientist" className="c1" />
 
         
           </li>
 
-          <li className="a-text-container">
+          <li className="c-text-container">
             <h1 className="c2 title3-tex">
               Middle School
               <span className="text-gold">helps groving student fluorish</span>

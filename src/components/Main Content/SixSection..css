@@ -1,18 +1,17 @@
 .parallax-6{
     background: url("../../../public/assets/Group\ 606.svg") fixed no-repeat; 
-padding: 5px;
-padding-top: 50px;
+padding: 1rem;
+padding-top: 4rem;
 background-color: rgb(26, 96, 215, 0.7);
-margin-top: 40px;
-/* z-index: -1; */
-/* position: relative; */
+margin-top: -10rem;
+
 
 }
 
 
 .para-container-6{
    text-align: center;
-   padding-bottom: 5px;
+   padding-bottom: 2rem;
 
 }
 
@@ -67,6 +66,13 @@ padding-bottom: 5px;
 @media screen and (min-width: 960px) {
 
 }
+
+@media only screen and (min-width: 1450px) {
+
+
+
+}
+
 
 
 

@@ -213,11 +213,11 @@ h1 .text-gold {
     gap: 50px;
 
     align-items: center;
-    margin-top: -100px;
+    margin-top: -8rem;
     padding-bottom: 0;
     margin-bottom: 150px;
   }
-  .c1 {
+  .c1  {
     /* max-width: 100%;
     height: auto;
     width: auto; */
@@ -231,16 +231,18 @@ h1 .text-gold {
     z-index: 2;
   }
   .c-image-container {
-    grid-column: 1/7 !important;
+    grid-column: 1/6 ;
     grid-row: 1/6;
 
-    margin-left: -20px;
+    margin-left: 1rem;
   }
   .c-text-container {
-    grid-column: 6/9;
+    grid-column: 7/9;
     grid-row: 1/6;
-
-    margin: 10rem 4rem;
+line-height: 2rem;
+    margin: 0rem 2rem;
+    margin-right: 8rem;
+    margin-left: -4rem;
   }
 
   .c2 {
