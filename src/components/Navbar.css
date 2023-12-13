@@ -144,10 +144,7 @@
     color: #f5a700;
     transition: 250ms;
   }
-}
-
-/* media queries  menu  desktop vs mobile */
-@media screen and (max-width: 1169px) {
+  /* ============== */
   .nav-links {
     display: none;
   }
@@ -171,6 +168,11 @@
   .fa-bars {
     color: #0641a4;
   }
+}
+
+/* media queries  menu  desktop vs mobile */
+@media screen and (max-width: 1169px) {
+
 }
 /* connected with mobile menu */
 @media screen and (min-width: 1170px) {
