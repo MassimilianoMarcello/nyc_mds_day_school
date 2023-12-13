@@ -144,46 +144,37 @@ h1 .text-gold {
 
   .b5 {
     background-color: #277ddc;
-    background-color: #dc27ca !important;
-    /* grid-column: 1/2;
-    grid-row: 6/7;
-    height: 100px;
-margin-bottom: 6rem;
-    width: 200px;
-    z-index: 1; */
+
+
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1449px) {
   .para-container-b {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, auto);
-    gap: 20px;
+
     list-style-type: none;
     margin-top: -10px;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 6rem;
+    margin-top: -4rem;
   }
   .b1 {
     margin-left: -2rem;
-
-    max-width: 100%;
+max-width: 100%;
     height: auto;
     width: auto;
   }
-  .b1 {
-    position: relative;
-    z-index: 2;
-  }
+
   .b-image-container {
-    grid-column: 4/9;
+    grid-column: 5/9;
     grid-row: 1/6;
-    margin-right: -2rem;
+    margin-right: .1rem;
   }
   .b-text-container {
     grid-column: 1/4;
     grid-row: 1/6;
-
+margin-right: 6rem;
+margin-left: 3rem;
     padding-right: 1;
   }
 }
@@ -215,8 +206,7 @@ h1 .text-gold {
 }
 
 .b5 {
-  background-color: #277ddc;
-  background-color: #272adc;
+
 
   z-index: 1;
 
@@ -234,7 +224,7 @@ h1 .text-gold {
     align-items: center;
     margin-top: -8rem;
     padding-bottom: 0;
-    margin-bottom: 150px;
+    margin-bottom: 14rem;
   }
   .b1 {
     margin-left: 1rem;
@@ -284,7 +274,7 @@ h1 .text-gold {
   .b5 {
     margin-top: -8rem;
 
-    background-color: #f5a700;
+
     grid-column: 1/3;
     grid-row: 5/6;
 

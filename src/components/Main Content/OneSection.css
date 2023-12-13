@@ -8,11 +8,11 @@
   background-size: 95% 50% 45% 35%;
 
   margin-top: -20px;
+ 
 }
 
 .parallax-inner h2 {
-
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #0741a4;
   line-height: 1.2;
@@ -20,51 +20,66 @@
   text-align: left;
 
   margin: 20px;
-
-
-
-
-
 }
 .parallax-inner p {
-
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #161718;
   letter-spacing: 1%;
   margin: 2rem;
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
 
   text-align: left;
-
 }
-
-@media screen and (max-width: 960px) {
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
   .parallax {
-    padding-bottom: 250px;
- 
+    padding-bottom: 20rem;
+    margin-bottom: 4rem;
   }
   .parallax-inner h2 {
-    font-size: 2rem;
-
+    font-size: 3.5rem;
     line-height: 1.2;
     letter-spacing: 1%;
-
-    padding-top: 10px;
-    padding-left: 10px;
     text-align: left;
-
     font-weight: 500;
+    padding-top: 10px;
+    margin-right: 12rem;
+    margin-left: 4rem;
   }
   .parallax-inner p {
-    text-align: center;
-    font-size: 1rem;
- margin-bottom: -100px;
- 
-    /* margin: 20px 10%; */
-    padding-left: 2px;
-    text-align: left;
-    margin-left: 29px;
-
+    font-size: 1.4rem;
+    margin-bottom: -100px;
+    margin-right: 12rem;
+    margin-left: 4rem;
+text-align: left;
   }
- 
-  
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1449px) {
+
+  .parallax-inner p {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 8rem;
+    margin-right: 12rem;
+    margin-left: 4rem;
+}}
+
+@media only screen and (min-width: 1450px){
+
+  .parallax-inner h2 {
+    font-size: 6rem;
+    text-align: left;
+    padding-top: 3rem;
+    margin-right: 4rem;
+    margin-left: 40rem;
+  }
+  .parallax-inner p {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 8rem;
+    margin-right: 4rem;
+    margin-left: 40rem;}
+
+
 }

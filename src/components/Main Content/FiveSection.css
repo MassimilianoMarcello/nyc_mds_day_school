@@ -144,7 +144,7 @@ text-transform: uppercase;
     grid-template-rows: repeat(6, auto);
     gap: 20px;
     list-style-type: none;
-    margin-top: -10px;
+    margin-top: -4rem;
     align-items: center;
     margin-bottom: 150px;
   }
@@ -162,13 +162,15 @@ text-transform: uppercase;
   .c-image-container {
     grid-column: 1/7;
     grid-row: 1/6;
-    margin-left: -1rem;
+    margin-left: .5rem;
   }
   .c-text-container {
+    /* background-color: aqua !important; */
     grid-column: 7/9;
     grid-row: 1/6;
-
-    margin-left: -1rem;
+ margin: 0 5rem;
+margin-right: 4rem;
+    margin-left: -4rem;
     padding-right: 1;
   }
 }
