@@ -43,7 +43,7 @@ export default function App() {
         }
       />
       <Route path="/about_mds" element={<AboutMds />} />
-      {/* <Route path="/admissions" element={<Admissions />} /> */}
+
      
       <Route path="/in_the_classroom" element={<InTheClassroom />} />
       <Route path="/contact_us" element={<ContactUs />} />

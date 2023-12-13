@@ -160,3 +160,16 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 1450px) {
+
+  .nav-links {
+  
+
+    padding: 0.5rem 0.6rem;
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 2rem;
+  }
+
+}
