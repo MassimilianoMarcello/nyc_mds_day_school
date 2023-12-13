@@ -35,7 +35,7 @@ const MobileMenu= () => {
   <li><a href="/annual_fund">ANNUAL FUND</a></li>
   <li><a href="/limmud_hayom">LIMMUD HAYOM</a></li>
   <li><a href="/program_sponsorship">PROGRAM SPONSORSHIP</a></li> 
-    
+    <li className='mobile-sign-up-btn'><a href="/sign_up">MyMDS</a></li>
    </>
   )
 }

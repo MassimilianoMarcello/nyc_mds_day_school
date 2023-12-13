@@ -180,7 +180,7 @@ function Navbar() {
             </Link>
             {supportDropdown && <DropSupport />}
           </li>
-          <li>
+          {/* <li>
             <Link
               to="#"
               className="nav-links-mobile "
@@ -188,7 +188,7 @@ function Navbar() {
             >
               Sign Up
             </Link>
-          </li>
+          </li> */}
         </ul>
         <Button />
       </nav>

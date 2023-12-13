@@ -43,6 +43,24 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
+.mobile-sign-up-btn {
+  margin: 4rem 21rem;
+}
+.mobile-sign-up-btn a {
+  background-color: #f4f4f4;
+  color: #0641a4;
+
+  padding: 0 0.1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  padding: 1rem;
+}
+
+.mobile-sign-up-btn a:hover {
+  background-color: #f5a700;
+  color: #fff !important;
+}
 
 .fa-bars {
   color: #fff;
@@ -162,14 +180,15 @@
 }
 
 @media only screen and (min-width: 1450px) {
-
+  .navbar-logo img {
+    cursor: pointer;
+    padding: 2px;
+  margin-left: 1rem;
+  }
   .nav-links {
-  
-
     padding: 0.5rem 0.6rem;
     font-size: 22px;
     font-weight: 500;
     margin-right: 2rem;
   }
-
 }
