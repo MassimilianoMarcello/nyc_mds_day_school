@@ -25,6 +25,7 @@ import SamplePageThree from './components/pages/SamplePageThree';
 
 
 
+
 export default function App() {
   return (
     <Router>
@@ -57,6 +58,7 @@ export default function App() {
       <Route path="/sample_page_one" element={<SamplePageOne />} />
       <Route path="/sample_page_two" element={<SamplePageTwo />} />
       <Route path="/sample_page_three" element={<SamplePageThree />} />
+     
 
 
     </Routes>

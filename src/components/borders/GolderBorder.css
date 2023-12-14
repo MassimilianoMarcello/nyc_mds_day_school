@@ -1,7 +1,7 @@
 .small-golden-container {
   background-color: #f5a700;
   text-align: center;
-  padding: 2px;
+  padding: 10px;
 }
 
 .medium-golden-container {
@@ -14,6 +14,7 @@
   font-size: 18px;
   color: #154ba7;
   font-weight: 300;
+
 }
 .medium-golden-container h1 a {
   color: #154ba7;
@@ -26,6 +27,20 @@
     font-size: 14px;
   
     font-weight: 300;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .medium-golden-container {
+
+    padding:15px;
+  }
+  
+  .medium-golden-container h1 {
+
+    color: #154ba7;
+
+    padding-top: 80px;
   }
 }
 

@@ -95,7 +95,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar ">
       
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
         <img src="./MDS Color Logo.svg" alt="mds" />
@@ -111,7 +111,6 @@ function Navbar() {
               ABOUT MDS 
 
          
-              {/* <i className="fas fa-caret-down" /> */}
             </Link>
             {dropdown && <Dropdown />}
           </li>
