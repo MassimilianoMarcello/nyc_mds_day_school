@@ -179,7 +179,7 @@ margin-right: 4rem;
   padding-top: 20px;
   color: #0741a4;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
   margin-top: 2rem;
   margin-right: 1rem;
@@ -237,7 +237,7 @@ h1 .text-gold {
     grid-row: 1/6;
     line-height: 2rem;
     margin: 0rem 2rem;
-    margin-right: 8rem;
+    margin-right: 6rem;
     margin-left: -4rem;
   }
 
@@ -248,8 +248,8 @@ h1 .text-gold {
     border-top: solid 3px #f5a700;
     margin-top: 2rem;
     color: #0741a4;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 38px;
+    font-weight: 600;
     line-height: 1.2;
   }
 

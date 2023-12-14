@@ -29,10 +29,11 @@ margin-bottom: -2rem;
 margin-left: -1.5rem;
 margin-right: .1rem;
   margin-bottom: .5rem;
+  
 }
 .a1 {
 
- 
+
   position: relative;
   margin: auto;
   z-index: 2;
@@ -214,7 +215,7 @@ padding-right: 1;
     padding-top: 20px;
     color: #0741a4;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2;
     margin-top: 2rem;
     margin-right: 1rem;
@@ -291,8 +292,8 @@ position: relative;
     border-top: solid 3px #f5a700;
     margin-top: 2rem;
     color: #0741a4;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 38px;
+    font-weight: 600;
     line-height: 1.2;
   }
 

@@ -2,16 +2,21 @@
 
 .parallax {
   background: url("../../../public/assets/FireBackground.svg") fixed no-repeat;
+background-position: left;
+background-size: 95% 50% 45% 35%;
+margin-top: 0px;
 
-  background-position: left;
-
-  background-size: 95% 50% 45% 35%;
-
-  margin-top: -20px;
  
+}
+.parallax-inner{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: auto auto ;
 }
 
 .parallax-inner h2 {
+  grid-column: 2/9;
+  grid-row: 1/2;
   font-size: 2rem;
   font-weight: 500;
   color: #0741a4;
@@ -22,10 +27,12 @@
   margin: 20px;
 }
 .parallax-inner p {
+  grid-column: 2/9;
+  grid-row: 2/3;
   font-size: 1rem;
   color: #161718;
   letter-spacing: 1%;
-  margin: 2rem;
+ margin-left: 1.5rem;
   margin-bottom: 8rem;
   padding-bottom: 4rem;
 
@@ -37,6 +44,8 @@
     margin-bottom: 4rem;
   }
   .parallax-inner h2 {
+    grid-column: 2/9;
+    grid-row: 1/2;
     font-size: 3.5rem;
     line-height: 1.2;
     letter-spacing: 1%;
@@ -56,30 +65,41 @@ text-align: left;
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1449px) {
-
+  .parallax-inner h2 {
+    grid-column: 2/9;
+    grid-row: 1/2;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    
+    padding-top: 10px;
+    margin-right: 2rem;
+    margin-left: 4rem;
+  }
   .parallax-inner p {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    padding-bottom: 8rem;
-    margin-right: 12rem;
-    margin-left: 4rem;
+    padding-bottom: 10rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }}
 
 @media only screen and (min-width: 1450px){
 
   .parallax-inner h2 {
+    grid-column: 2/9;
+    grid-row: 1/2;
     font-size: 6rem;
     text-align: left;
     padding-top: 3rem;
-    margin-right: 4rem;
-    margin-left: 40rem;
+    margin-right: 6rem;
+    margin-left: 10rem;
   }
   .parallax-inner p {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    padding-bottom: 8rem;
-    margin-right: 4rem;
-    margin-left: 40rem;}
+    padding-bottom: 12rem;
+    margin-right: 6rem;
+    margin-left: 10rem;}
 
 
 }
