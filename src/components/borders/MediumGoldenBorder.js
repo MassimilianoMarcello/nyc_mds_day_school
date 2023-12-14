@@ -6,7 +6,7 @@ const MediumGoldenBorder = () => {
   <section className='medium-golden-container'>
 
   
-<h1>Ready to become a  part of MDS? <a href="#">Click here to apply</a></h1>
+<h1>Ready to become a  part of MDS? <a href="/sign_up">Click here to apply</a></h1>
   </section>
   )
 }
