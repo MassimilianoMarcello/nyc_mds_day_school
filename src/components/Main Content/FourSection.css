@@ -75,10 +75,10 @@ h1 .text-gold {
   grid-column: 1/3;
   grid-row: 8/9;
 
-  width: 100px;
-  height: 180px;
+  width: 120px;
+  height: 200px;
   z-index: 1;
-  margin-top: -10.2rem;
+  margin-top: -11rem;
 
   right: 0;
   bottom: 1;
@@ -143,7 +143,7 @@ h1 .text-gold {
   }
 
   .b5 {
-    background-color: #277ddc;
+    background-color: #f5a700;
 
 
   }
