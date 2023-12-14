@@ -1,14 +1,15 @@
-import React from 'react'
-import "./GolderBorder.css"
+import React from "react";
+import "./GolderBorder.css";
 
 const SmallGoldenBorder = () => {
   return (
-  <section className='small-golden-container'>
+    <section className="small-golden-container">
+      <h1>
+        Ready to become a part of MDS?{" "}
+        <a href="/sign_up">Click here to apply</a>
+      </h1>
+    </section>
+  );
+};
 
-  
-
-  </section>
-  )
-}
-
-export default SmallGoldenBorder
+export default SmallGoldenBorder;

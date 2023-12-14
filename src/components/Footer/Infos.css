@@ -5,7 +5,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 100px repeat(20, 10px);
   gap: 5px;
- 
 }
 
 .footer-container img {
@@ -51,10 +50,10 @@
 }
 .footer-container p:hover {
   /* PARE */
-color: #f5a700;
+  color: #f5a700;
 }
 .footer-container p:nth-child(7) {
-  /* SUPPORING MDS */
+  /* SUPPORTING MDS */
   grid-column: 1/2;
   grid-row: 17/18;
 }
@@ -69,9 +68,7 @@ color: #f5a700;
   /* ADMISSIONS */
   grid-column: 2/2;
   grid-row: 17/18;
-
 }
-
 
 .mail-to {
   color: #fff;
@@ -84,24 +81,15 @@ color: #f5a700;
 .social-media-container a {
   padding-right: 10px;
 }
-/* .footer-container .facebook-link svg {
-  fill: #fff;
-}
-
-.footer-container .facebook-link svg.hover {
-  fill: #f5a700;
-} */
-
 
 
 @media only screen and (min-width: 1024px) {
-  .footer-first-container{
+  .footer-first-container {
     margin-top: 20px;
   }
   .footer-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px repeat(20, 10px);
-    
   }
   .footer-container img {
     grid-column: 1/3;

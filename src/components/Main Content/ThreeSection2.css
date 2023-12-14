@@ -1,86 +1,78 @@
 .parallax3 {
-    /* background: url("../../../public/assets/FireBackground.svg") fixed
-      no-repeat; */
- background-color: aliceblue;
-    background-position: left;
-    /* background-size: 100% 100% ; */
+  background-color: aliceblue;
+  background-position: left;
 
   margin-top: -100px;
-    margin-bottom: 100px;
-    padding-bottom: 0;
-  }
-.parallax3-inner {
-    display: grid;
-    grid-template-columns: 3fr 1fr; /* 3 colonne per l'immagine e 1 colonna per il contenuto */
-    grid-template-rows: auto auto auto; /* 3 righe per l'immagine, h1, p, e a */
-    gap: 10px; /* Aggiungi uno spazio tra le colonne e le righe */
-   
+  margin-bottom: 100px;
+  padding-bottom: 0;
 }
-  
-  .parallax3-inner img {
-    grid-column: 1 / span 3; /* L'immagine occupa 3 colonne da sinistra */
-    grid-row: 1; /* L'immagine occupa solo la prima riga */
+.parallax3-inner {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+}
+
+.parallax3-inner img {
+  grid-column: 1 / span 3;
+  grid-row: 1;
   margin: 20px;
-  width:550px;
+  width: 550px;
   height: 500px;
   background-color: rgb(29, 112, 185);
   padding: 5px;
-
 }
-  
-  .parallax3-inner h1 {
-    grid-column: 2 ; /* h1 occupa 3 colonne sotto l'immagine */
-    grid-row: 1; /* h1 si trova nella seconda riga */
-    text-align: center;
-    font-size: 25px;
-    color: #0741a4;
-    line-height: 1.2;
-    letter-spacing: 1%;
-    margin: 20px;
-    margin-left: 2px;
-    font-weight: 500;
-    border-top: solid 3px #f5a700;
-    color: #0741a4;
-    font-weight: 400;
-   height: 20px;
-    background-color: rgb(29, 112, 185);
- 
-    text-align: left;
-  }
-  
-  .parallax3-inner p {
-    grid-column: 2; /* p occupa 3 colonne sotto l'immagine */
-    grid-row: 2; /* p si trova nella terza riga */
-    text-align: center;
-    font-size: 1.2rem;
-    color: #161718;
-    letter-spacing: 1%;
-  
-    font-weight: 200;
-    font-size: 15px;
-    background-color: rgb(29, 112, 185);
-   margin-top: -400px;
-  }
-  
-  .parallax3-inner a {
-    grid-column: 2 / span 3; /* a occupa 3 colonne sotto l'immagine */
-    grid-row: 3; /* a si trova nella quarta riga */
-    color: #f5a700;
-    text-transform: uppercase;
-  }
 
-  .rectangle1 {
-    background-color: #1b61d8;
-    /* height: 120px;
-    width: 235px; */
-     position: absolute;
+.parallax3-inner h1 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  font-size: 25px;
+  color: #0741a4;
+  line-height: 1.2;
+  letter-spacing: 1%;
+  margin: 20px;
+  margin-left: 2px;
+  font-weight: 500;
+  border-top: solid 3px #f5a700;
+  color: #0741a4;
+  font-weight: 400;
+  height: 20px;
+  background-color: rgb(29, 112, 185);
+
+  text-align: left;
+}
+
+.parallax3-inner p {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #161718;
+  letter-spacing: 1%;
+
+  font-weight: 200;
+  font-size: 15px;
+  background-color: rgb(29, 112, 185);
+  margin-top: -400px;
+}
+
+.parallax3-inner a {
+  grid-column: 2 / span 3;
+  grid-row: 3;
+  color: #f5a700;
+  text-transform: uppercase;
+}
+
+.rectangle1 {
+  background-color: #1b61d8;
+
+  position: absolute;
   bottom: 200px;
-  z-index: -1; 
+  z-index: -1;
   grid-column: 1;
-  grid-row: 1 ;
-  /* padding: 6px 8px; */
-  }
-  .text-container a {
-    color: #f5a700;
-  } 
-  
+  grid-row: 1;
+}
+.text-container a {
+  color: #f5a700;
+}

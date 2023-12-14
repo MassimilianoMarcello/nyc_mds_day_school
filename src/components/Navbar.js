@@ -96,21 +96,20 @@ function Navbar() {
   return (
     <>
       <nav className="navbar ">
-      
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-        <img src="./MDS Color Logo.svg" alt="mds" />
+          <img src="./MDS Color Logo.svg" alt="mds" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        
+
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="menu-mobile-only nav-links-mobile "><MobileMenu/></li>
+          <li className="menu-mobile-only nav-links-mobile ">
+            <MobileMenu />
+          </li>
           <li className="nav-item">
             <Link to="#" className="nav-links" onClick={handleDropdownClick}>
-              ABOUT MDS 
-
-         
+              ABOUT MDS
             </Link>
             {dropdown && <Dropdown />}
           </li>

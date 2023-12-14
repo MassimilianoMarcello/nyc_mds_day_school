@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import './Dropdown.css';
-import { Link } from 'react-router-dom';
+import "./Dropdown.css";
+import { Link } from "react-router-dom";
 
 function DropCommunity() {
   const [click, setClick] = useState(false);
@@ -9,18 +9,17 @@ function DropCommunity() {
   const handleClick = () => setClick(!click);
   const communityItems = [
     {
-      title: 'CAMP OROT',
-      path: '/sample_page_one',
-      cName: 'dropdown-link'
-    }
+      title: "CAMP OROT",
+      path: "/sample_page_one",
+      cName: "dropdown-link",
+    },
   ];
-  
+
   return (
     <>
       <ul
         onClick={handleClick}
-        className={`dropdown-menu ${click ? 'clicked' : ''} community-drop`}  
-
+        className={`dropdown-menu ${click ? "clicked" : ""} community-drop`}
       >
         {communityItems.map((item, index) => {
           return (

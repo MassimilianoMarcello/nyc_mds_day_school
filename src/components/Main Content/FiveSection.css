@@ -1,7 +1,6 @@
- .parallax-c {
-  margin-top: .1rem;
- 
-} 
+.parallax-c {
+  margin-top: 0.1rem;
+}
 
 .para-container-c {
   display: grid;
@@ -10,15 +9,12 @@
   gap: 5px;
   list-style-type: none;
   align-items: center;
-
-
-
 }
 .c-image-container {
   grid-column: 1/2;
   grid-row: 1/4;
   margin-left: -2.5rem;
-  margin-right: .1rem;
+  margin-right: 0.1rem;
   margin-bottom: 1rem;
 }
 .c-text-container {
@@ -27,14 +23,14 @@
   margin-top: -2rem;
   margin-bottom: 10rem;
   margin-left: -1.5rem;
-  margin-right: .1rem;
+  margin-right: 0.1rem;
 }
 .c1 {
   position: relative;
   margin: auto;
   z-index: 2;
   background-repeat: no-repeat;
-padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .c2 {
@@ -45,7 +41,6 @@ padding: 0 1rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 1px;
-
 }
 
 h1 .text-gold {
@@ -55,29 +50,21 @@ h1 .text-gold {
 }
 
 .c3 {
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .c4 {
-
-text-transform: uppercase;
-
-
+  text-transform: uppercase;
 }
 .c4 a {
   color: #f5a700;
   font-weight: 600;
   text-underline-offset: 10px;
   letter-spacing: 1px;
-
-
 }
 .c4 a:hover {
   color: #0741a4;
- 
 }
-
-
 
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
   .para-container-c {
@@ -162,14 +149,13 @@ text-transform: uppercase;
   .c-image-container {
     grid-column: 1/7;
     grid-row: 1/6;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
   .c-text-container {
-    /* background-color: aqua !important; */
     grid-column: 7/9;
     grid-row: 1/6;
- margin: 0 5rem;
-margin-right: 4rem;
+    margin: 0 5rem;
+    margin-right: 4rem;
     margin-left: -4rem;
     padding-right: 1;
   }
@@ -214,9 +200,6 @@ h1 .text-gold {
     margin-bottom: 150px;
   }
   .c1 {
-    /* max-width: 100%;
-    height: auto;
-    width: auto; */
     margin-left: 1rem;
     min-width: 1200px;
     height: 900px;

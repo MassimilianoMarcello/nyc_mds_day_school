@@ -7,9 +7,6 @@
   font-size: 1.1rem;
 }
 
-
-
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(8, auto);
@@ -25,7 +22,6 @@
   cursor: pointer;
   padding: 2px;
   margin: 2px auto;
-
 }
 
 .nav-item {
@@ -81,7 +77,6 @@
   .NavbarItems {
     position: relative;
   }
-  
 
   /* menu mobile */
   .nav-menu {
@@ -104,8 +99,6 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-   
-  
   }
 
   .navbar-logo img {
@@ -115,7 +108,6 @@
     padding: 2px;
     margin: 2px auto;
     padding-left: 10px;
-    
   }
 
   .nav-links-mobile {
@@ -131,7 +123,6 @@
     color: #0641a4;
     padding-bottom: 20px;
     font-size: 1.5rem;
-    
   }
   .nav-links-mobile-title:hover {
     color: #f5a700;
@@ -153,7 +144,7 @@
     color: #f5a700;
     transition: 250ms;
   }
-/* media queries  menu  desktop vs mobile */
+  /* media queries  menu  desktop vs mobile */
   .nav-links {
     display: none;
   }
@@ -169,8 +160,6 @@
     font-size: 2rem;
     cursor: pointer;
     margin-top: -1rem;
-   
-    
   }
 
   .fa-times {
@@ -181,8 +170,6 @@
     color: #0641a4;
   }
 }
-
-
 
 /* connected with mobile menu */
 @media screen and (min-width: 1170px) {
@@ -197,12 +184,9 @@
     width: 100%;
     background-color: #fff;
     z-index: 100;
-  
   }
   .navbar-logo img {
- 
     margin-left: 1rem;
-  
   }
 }
 
@@ -210,7 +194,7 @@
   .navbar-logo img {
     cursor: pointer;
     padding: 2px;
-  margin-left: 2rem;
+    margin-left: 2rem;
   }
   .nav-links {
     padding: 0.5rem 0.6rem;
