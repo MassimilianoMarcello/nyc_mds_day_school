@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
+
 }
 
 .nav-menu {
@@ -17,6 +18,7 @@
   justify-content: end;
   margin-right: 0.1rem;
   font-family: "Euclid Square", sans-serif;
+
 }
 .navbar-logo img {
   cursor: pointer;
@@ -28,14 +30,18 @@
   display: flex;
   align-items: center;
   height: 80px;
+  
 }
-
+/* questi sono i link principali di entrambi i menu */
 .nav-links {
   color: #0641a4;
   text-decoration: none;
   padding: 0.5rem 0.6rem;
   font-size: 17px;
   font-weight: 500;
+  text-align: center;
+  margin-left: 10rem;
+  
 }
 
 .nav-links:hover {
@@ -65,10 +71,11 @@
 .fa-bars {
   color: #fff;
 }
-
+/* questo forse era il link del mobile che non si doveva vedere nel desktop.rimettere se ci sono problemi */
+/* 
 .nav-links-mobile {
   display: none;
-}
+} */
 
 .menu-icon {
   display: none;
@@ -83,6 +90,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(28, 1fr);
+    gap: 15rem;
     width: 100%;
     height: 90vh;
     position: absolute;
@@ -91,6 +99,19 @@
     opacity: 1;
     transition: all 0.5s ease;
     padding-bottom: 2000px;
+  
+  
+  }
+  .nav-links {
+    color: #0641a4;
+    text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 10rem;
+
+    
   }
 
   .nav-menu.active {
@@ -99,6 +120,9 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    
+    
+  
   }
 
   .navbar-logo img {
@@ -109,7 +133,7 @@
     margin: 2px auto;
     padding-left: 10px;
   }
-
+/* forse qui ho cambiato il padding a 2.5 */
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -118,36 +142,39 @@
     border-radius: 4px;
     width: 100%;
     list-style-type: none;
+    
   }
-  .nav-links-mobile-title {
+  /* questo dovrebbe essere un selector del menu creato apposta per il mobile */
+  /* .nav-links-mobile-title {
     color: #0641a4;
     padding-bottom: 20px;
     font-size: 1.5rem;
-  }
-  .nav-links-mobile-title:hover {
+  } */
+  /* .nav-links-mobile-title:hover {
     color: #f5a700;
-  }
-  .nav-links-mobile li {
+  } */
+  /* .nav-links-mobile li {
     padding-bottom: 1rem;
-  }
-  .nav-links-mobile li a {
+  } */
+  /* .nav-links-mobile li a {
     text-decoration: none;
     color: #1888ff;
     font-size: 1.3rem;
-  }
-  .nav-links-mobile li a:hover {
+  } */
+  /* .nav-links-mobile li a:hover {
     color: #f5a700;
-  }
+  } */
 
-  .nav-links-mobile:hover {
-    /* background: #fff; */
+  /* .nav-links-mobile:hover {
+    background: #fff;
     color: #f5a700;
     transition: 250ms;
-  }
+  } */
   /* media queries  menu  desktop vs mobile */
-  .nav-links {
+  /* questi sono i linl principali che vengono mostrati nel mobile menu */
+  /* .nav-links {
     display: none;
-  }
+  } */
   .btn {
     display: none;
   }
@@ -176,6 +203,13 @@
   .menu-mobile-only li {
     display: none;
   }
+  /* questo sono i sublinks creati per il mobile ma non visibili nel desktop */
+  .submenu-links{
+    display: none;
+  }
+  .nav-menu{
+    gap: 10px;
+  }
 
   /* fixed navbar */
   .navbar {
@@ -187,6 +221,16 @@
   }
   .navbar-logo img {
     margin-left: 1rem;
+  }
+  .nav-links {
+    color: #0641a4;
+    text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 0rem;
+    
   }
 }
 

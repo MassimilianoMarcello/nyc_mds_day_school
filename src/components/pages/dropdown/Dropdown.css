@@ -3,13 +3,13 @@
   width: 200px;
   position: absolute;
   top: 80px;
-
+background-color: #f5a700;
   list-style: none;
   text-align: start;
 }
 
 .dropdown-menu li {
-  background: #fff;
+font-size: 1rem;
   cursor: pointer;
 }
 
@@ -38,13 +38,15 @@
     display: none;
   }
   /* dropdown menu not visible in mobile */
-  .dropdown-menu {
-    display: none;
-  }
+
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width:  1170px) {
 
+  .dropdown-menu li {
+    font-size: 1rem;
+      cursor: pointer;
+    }
 /* single dropdown menu style */
 .about-drop {
   margin-left: -50px;
