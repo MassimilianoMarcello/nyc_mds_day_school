@@ -9,7 +9,7 @@ import DropCommunity from "./pages/dropdown/DropCommunity";
 import DropSupport from "../components/pages/dropdown/DropSupport";
 
 import "./Navbar.css";
-import MobileMenu from "./pages/submenu mobile/MobileMenu";
+// import MobileMenu from "./pages/submenu mobile/MobileMenu";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -104,12 +104,13 @@ function Navbar() {
         </div>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="menu-mobile-only nav-links-mobile ">
+          {/* <li className="menu-mobile-only nav-links-mobile ">
             <MobileMenu />
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="#" className="nav-links" onClick={handleDropdownClick}>
               ABOUT MDS
+              <h2 className="submenu-links"><Dropdown/></h2>
             </Link>
             {dropdown && <Dropdown />}
           </li>
