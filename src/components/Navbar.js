@@ -9,7 +9,7 @@ import DropCommunity from "./pages/dropdown/DropCommunity";
 import DropSupport from "../components/pages/dropdown/DropSupport";
 
 import "./Navbar.css";
-import MobileMenu from "./pages/submenu mobile/MobileMenu";
+import MobileMenu from "./MobileMenu";
 
 function Navbar() {
   const [click, setClick] = useState(false);
