@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import InTheClassroom from "./components/pages/InTheClassroom";
 import AboutMds from "./components/pages/AboutMds";
 
