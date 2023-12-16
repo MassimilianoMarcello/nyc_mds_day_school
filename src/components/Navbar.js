@@ -14,8 +14,18 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
-  const handleLinkClick = (dropdown) => {
+  const handleLinkHover = (dropdown) => {
+    setClick(true);
+    setActiveDropdown(dropdown);
+  };
+
+  const handleLinkLeave = () => {
     setClick(false);
+    setActiveDropdown(null);
+  };
+
+  const handleLinkClick = (dropdown) => {
+    setClick((prevClick) => !prevClick);
     setActiveDropdown((prev) => (prev === dropdown ? null : dropdown));
   };
 
@@ -40,7 +50,7 @@ const Navbar = () => {
           { key: "community", label: "COMMUNITY RESOURCES", component: <DropCommunity /> },
           { key: "support", label: "SUPPORT MDS", component: <DropSupport /> },
         ].map(({ key, label, component }) => (
-          <li className="nav-item" key={key}>
+          <li className="nav-item" key={key} onMouseEnter={() => handleLinkHover(key)} onMouseLeave={handleLinkLeave}>
             <Link to="#" className="nav-links" onClick={() => handleLinkClick(key)}>
               {label}
             </Link>
