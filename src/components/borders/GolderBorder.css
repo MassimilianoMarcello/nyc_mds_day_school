@@ -31,11 +31,11 @@
 }
 
 @media only screen and (min-width: 1170px) {
-  .medium-golden-container {
+  /* .medium-golden-container {
 
     padding:15px;
   }
-  
+   */
   .medium-golden-container h1 {
 
     color: #154ba7;
